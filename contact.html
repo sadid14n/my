@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadid - coder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a> </li>
+                    <li><a href="/services.html" target="_blank">Services</a> </li>
+                    <li><a href="/blog.html" target="_blank">Blog</a> </li>
+                    <li><a href="/contact.html" target="_blank">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main"> 
+            <div class="hamburger">
+                <img class="ham" src="assets/humburger.png" alt="" width="23px">
+                <img class="cross" src="assets/cross.png" alt="" width="23px">
+            </div>               
+            <div class="contactForm">
+                <h2>Contact me for Work/ general Enquires</h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientEmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientPhone" class="form-label">Phone Number</label>
+                      <input type="phone" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3 form-check" id="check">
+                      <input type="checkbox" class="form-check-input" id="isClient">
+                      <label class="form-check-label" for="isClient">I want to work with you</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
